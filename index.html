@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KLIVUO | Modern Digital Agency</title>
+
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+
+</head>
+
+<body>
+
+    <div class="bg-glow"></div>
+
+    <!-- ── MOBILE MENU OVERLAY ── -->
+    <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+        <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">
+            <i class="ph ph-x"></i>
+        </button>
+        <nav class="mobile-nav-links">
+            <a href="#services" class="mobile-link">Serviços</a>
+            <a href="#work" class="mobile-link">Trabalhos</a>
+            <a href="#process" class="mobile-link">Processo</a>
+            <a href="#why-us" class="mobile-link">Porquê nós?</a>
+        </nav>
+        <div class="mobile-menu-cta">
+            <a href="#contact" class="btn cta-b" style="font-size: 1rem; padding: 0.875rem 2rem;">
+                Falar com a Klivuo <i class="ph ph-arrow-up-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-content">
+            <a href="#home" class="logo">
+                <img src="img/klivuo-logo-recorte.png" alt="logo-klivuo">
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#process">Processo</a></li>
+                <li><a href="#why-us">Porquê nós?</a></li>
+            </ul>
+
+            <a href="#contact" class="btn btn-primary nav-cta" style="padding: 0.5rem 1.25rem; font-size: 0.9rem;">
+                Falar com a Klivuo <i class="ph ph-arrow-up-right"></i>
+            </a>
+
+            <!-- Hamburger -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false"
+                aria-controls="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container reveal">
+            <h1>Estética chama atenção.<br>Estratégia mantém.</h1>
+            <p>Combinamos design de alta qualidade, dinamismo e estratégia de performance para construir presenças
+                digitais que posicionam marcas e impulsionam um crescimento mensurável.</p>
+            <div class="hero-ctas">
+                <a href="#contact" class="btn btn-primary">Começar um projecto <i class="ph ph-arrow-right"></i></a>
+                <a href="#work" class="btn btn-outline">Ver nosso Trabahos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container reveal">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>Presença digital moderna que impulsiona o crescimento.</h2>
+                <p>Somos uma agência criativa focada em resultados. Não nos limitamos a criar designs bonitos —
+                    arquitetamos ecossistemas digitais projetados para converter, escalar e superar seus concorrentes.
+                </p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <h4>100%</h4>
+                    <p>Execução interna</p>
+                </div>
+                <div class="stat-item">
+                    <h4>Rápido</h4>
+                    <p>Ciclos de entrega</p>
+                </div>
+                <div class="stat-item">
+                    <h4>ROI</h4>
+                    <p>Focado no desempenho</p>
+                </div>
+                <div class="stat-item">
+                    <h4>Top</h4>
+                    <p>Padrões visuais</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container reveal">
+
+        <h2 class="section-title">Capacidades</h2>
+
+        <p class="section-subtitle">
+            Uma abordagem completa para o crescimento digital.
+        </p>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="ph ph-paint-brush service-icon"></i>
+                <h3>Branding</h3>
+                <p>Identidades visuais estratégicas, logotipos e diretrizes de marca que comunicam autoridade e alto
+                    valor ao seu mercado..</p>
+            </div>
+
+            <div class="service-card">
+                <i class="ph ph-layout service-icon"></i>
+                <h3>Web Design</h3>
+                <p>
+                    Sites e páginas de destino de alta conversão e ultrarrápidos, construídos com estruturas modernas e
+                    estética premium.
+                </p>
+            </div>
+            <div class="service-card">
+                <i class="ph ph-video service-icon"></i>
+
+                <h3>Edição de vídeo </h3>
+                <p>
+                    Vídeos dinâmicos, VSLs e vídeos institucionais com edição de alta retenção, motion graphics e
+                    correção de cores premium.
+            </div>
+
+            <div class="service-card">
+                <i class="ph ph-pen-nib service-icon"></i>
+                <h3>Criação de conteúdo</h3>
+                <p>
+                    Conteúdo envolvente para redes sociais, redação publicitária e conteúdo visual adaptados para
+                    distribuição algorítmica moderna.
+                </p>
+            </div>
+            <div class="service-card">
+                <i class="ph ph-trend-up service-icon"></i>
+                <h3>Tráfego Pago</h3>
+                <p>
+                    Campanhas publicitárias orientadas por dados no Meta e no Google, projetadas para maximizar o ROAS e
+                    adquirir leads de alta qualidade.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <i class="ph ph-rocket-launch service-icon"></i>
+                <h3>Crescimento Digital</h3>
+                <p>
+                    Estratégia de ponta a ponta que combina funis, otimização da taxa de conversão (CRO) e análises para
+                    escalar sua receita digital infraestrutura
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="container reveal">
+        <h2 class="section-title">Trabalho Selecionado</h2>
+        <p class="section-subtitle">Comprovante de execução.</p>
+        <div class="work-grid">
+            <div class="work-item">
+                <div class="work-image" style="background: url('') top/cover;">
+                </div>
+                <div class="work-overlay">
+                    <h3>Landing Pages</h3>
+                    <p>Web Site</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <div class="work-image" style="background: url('img/restaurante.jpg') top/cover;">
+                </div>
+                <div class="work-overlay">
+                    <h3>SaaS Landing Page</h3>
+                    <p>Web Design & Conversion</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <div class="work-image" style="background: url('') top/cover;">
+                </div>
+                <div class="work-overlay">
+                    <h3>E-Commerce Dashboard</h3>
+                    <p>UX/UI & System Design</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <div class="work-image" style="background: url('') center/cover;">
+                </div>
+                <div class="work-overlay">
+                    <h3>Creative Studio Identity</h3>
+                    <p>Branding & Motion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="container reveal">
+        <h2 class="section-title">The Methodology</h2>
+        <p class="section-subtitle">A streamlined, friction-less approach to delivery.</p>
+        <div class="process-container">
+            <div class="process-step">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <h3>Estratégia e descoberta</h3>
+                    <p>Analisamos seu posicionamento atual, definimos o avatar alvo e traçamos o roteiro visual e
+                        técnico.
+                    </p>
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <h3>Criação & Design</h3>
+                    <p>Executamos a direção visual, elaborando maquetes de alta fidelidade, elementos da marca e
+                        roteiros de vídeo.
+
+                    </p>
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <h3>Desenvolvimento & Lançamento</h3>
+                    <p>Construímos a infraestrutura técnica, implementamos o rastreamento e implantamos os ativos no
+                        ambiente de produção.</p>
+                </div>
+            </div>
+            <div class="process-step">
+                <div class="step-number">04</div>
+                <div class="step-content">
+                    <h3>Crescimento & Otimização</h3>
+                    <p>Impulsionamos o tráfego, analisamos o comportamento do usuário, realizamos testes A/B com
+                        criativos e iteramos para obter taxas de conversão máximas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="container reveal">
+        <h2 class="section-title">Por que KLIVUO?</h2>
+        <p class="section-subtitle">
+            Fazemos a ponte entre a arte e a análise de dados.
+        </p>
+        <div class="why-grid">
+            <div class="why-item">
+                <h4><i class="ph ph-lightning"></i> Velocidade de entrada no mercado</h4>
+                <p>
+                    Detestamos a burocracia corporativa. Agimos com rapidez, comunicamos diretamente e lançamos produtos
+                    que geram impacto imediato.
+                </p>
+            </div>
+            <div class="why-item">
+                <h4><i class="ph ph-target"></i> Execução Estratégica</h4>
+                <p>
+                    Um design bonito é inútil se não converter. Cada pixel que colocamos é guiado por uma profunda
+                    compreensão da psicologia humana e vendas.
+                </p>
+            </div>
+            <div class="why-item">
+                <h4><i class="ph ph-diamond"></i> Estética Premium</h4>
+                <p>
+                    Posicionamos sua marca como a autoridade absoluta em seu nicho, utilizando linguagens de design
+                    sofisticadas, modernas e
+                    minimalistas.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="container reveal cta-section">
+        <div class="cta-box">
+            <h2>Pronto para escalar?</h2>
+            <p>Pare de perder clientes para concorrentes com uma marca melhor. Vamos construir seu monopólio digital.
+            </p>
+            <a href="https://wa.me/244959413716?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20KLIVUO."
+                target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <i class="ph ph-whatsapp-logo"></i>
+                Message us on WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <img src="img/klivuo-logo-recorte.png" alt="logo-klivuo">
+                </a>
+                <p>
+                    Uma agência digital moderna focada em estética premium e estratégia de performance.
+                </p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h5>Agência</h5>
+                    <ul>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#process">Processo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Services</h5>
+                    <ul>
+                        <li><a href="#services">Branding</a></li>
+                        <li><a href="#services">Web Design</a></li>
+                        <li><a href="#services">Video & Conteúdo</a></li>
+                        <li><a href="#services">Crescimento pago</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h5>Socials</h5>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">TikTok</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Agência KLIVUO. Todos os direitos reservados.</p>
+            <p>
+                <a href="mailto:klivuosuport@gmail.com">klivuosuport@gmail.com</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // ── HAMBURGER MENU ──
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileMenuClose = document.getElementById('mobileMenuClose');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        function openMenu() {
+            hamburger.classList.add('open');
+            mobileMenu.classList.add('open');
+            document.body.classList.add('menu-open');
+            hamburger.setAttribute('aria-expanded', 'true');
+        }
+
+        function closeMenu() {
+            hamburger.classList.remove('open');
+            mobileMenu.classList.remove('open');
+            document.body.classList.remove('menu-open');
+            hamburger.setAttribute('aria-expanded', 'false');
+        }
+
+        hamburger.addEventListener('click', () => {
+            const isOpen = hamburger.classList.contains('open');
+            isOpen ? closeMenu() : openMenu();
+        });
+
+        // Close button inside overlay
+        mobileMenuClose.addEventListener('click', closeMenu);
+
+        // Close on link click
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', closeMenu);
+        });
+
+        // Close on CTA click inside menu
+        mobileMenu.querySelector('.btn')?.addEventListener('click', closeMenu);
+
+        // Close on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && mobileMenu.classList.contains('open')) {
+                closeMenu();
+                hamburger.focus();
+            }
+        });
+
+        // ── SCROLL REVEAL ──
+        document.addEventListener('DOMContentLoaded', () => {
+            const reveals = document.querySelectorAll('.reveal');
+
+            const revealObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15, rootMargin: "0px 0px -50px 0px" });
+
+            reveals.forEach(el => revealObserver.observe(el));
+        });
+    </script>
+</body>
+
+</html>
